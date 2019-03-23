@@ -1,0 +1,14 @@
+//
+// Created by manuel on 22/03/19.
+//
+
+#ifndef CE2103_PROYECTO1_SCRABBLE_SIMPLE_CLIENT_MAIN_H
+#define CE2103_PROYECTO1_SCRABBLE_SIMPLE_CLIENT_MAIN_H
+
+
+class simple_client_main {
+
+};
+
+
+#endif //CE2103_PROYECTO1_SCRABBLE_SIMPLE_CLIENT_MAIN_H
