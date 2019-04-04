@@ -1,0 +1,4 @@
+/home/adrian/CLionProjects/Logica/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/adrian/CLionProjects/Logica/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/adrian/CLionProjects/Logica/cmake-build-debug/CMakeFiles/gtk-test.dir
+/home/adrian/CLionProjects/Logica/cmake-build-debug/CMakeFiles/TC.dir
