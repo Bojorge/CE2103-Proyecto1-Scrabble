@@ -3,6 +3,9 @@
 
 CMakeFiles/servidor.dir/ArchivoTexto.cpp.o: ../ArchivoTexto.cpp
 
+CMakeFiles/servidor.dir/JsonDoc.cpp.o: ../JsonDoc.cpp
+CMakeFiles/servidor.dir/JsonDoc.cpp.o: ../JsonDoc.h
+
 CMakeFiles/servidor.dir/Serial.cpp.o: ../Serial.cpp
 CMakeFiles/servidor.dir/Serial.cpp.o: ../Serial.h
 

@@ -48,10 +48,10 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manuel/CLionProjects/servidor
+CMAKE_SOURCE_DIR = /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manuel/CLionProjects/servidor/cmake-build-debug
+CMAKE_BINARY_DIR = /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manuel/CLionProjects/servidor/cmake-build-debug/CMakeFiles /home/manuel/CLionProjects/servidor/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manuel/CLionProjects/servidor/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ ArchivoTexto.s: ArchivoTexto.cpp.s
 ArchivoTexto.cpp.s:
 	$(MAKE) -f CMakeFiles/servidor.dir/build.make CMakeFiles/servidor.dir/ArchivoTexto.cpp.s
 .PHONY : ArchivoTexto.cpp.s
+
+JsonDoc.o: JsonDoc.cpp.o
+
+.PHONY : JsonDoc.o
+
+# target to build an object file
+JsonDoc.cpp.o:
+	$(MAKE) -f CMakeFiles/servidor.dir/build.make CMakeFiles/servidor.dir/JsonDoc.cpp.o
+.PHONY : JsonDoc.cpp.o
+
+JsonDoc.i: JsonDoc.cpp.i
+
+.PHONY : JsonDoc.i
+
+# target to preprocess a source file
+JsonDoc.cpp.i:
+	$(MAKE) -f CMakeFiles/servidor.dir/build.make CMakeFiles/servidor.dir/JsonDoc.cpp.i
+.PHONY : JsonDoc.cpp.i
+
+JsonDoc.s: JsonDoc.cpp.s
+
+.PHONY : JsonDoc.s
+
+# target to generate assembly for a file
+JsonDoc.cpp.s:
+	$(MAKE) -f CMakeFiles/servidor.dir/build.make CMakeFiles/servidor.dir/JsonDoc.cpp.s
+.PHONY : JsonDoc.cpp.s
 
 Serial.o: Serial.cpp.o
 
@@ -243,6 +270,9 @@ help:
 	@echo "... ArchivoTexto.o"
 	@echo "... ArchivoTexto.i"
 	@echo "... ArchivoTexto.s"
+	@echo "... JsonDoc.o"
+	@echo "... JsonDoc.i"
+	@echo "... JsonDoc.s"
 	@echo "... Serial.o"
 	@echo "... Serial.i"
 	@echo "... Serial.s"

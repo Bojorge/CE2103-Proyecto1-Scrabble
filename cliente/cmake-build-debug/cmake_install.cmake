@@ -1,4 +1,4 @@
-# Install script for directory: /home/manuel/CLionProjects/cliente
+# Install script for directory: /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/manuel/CLionProjects/cliente/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

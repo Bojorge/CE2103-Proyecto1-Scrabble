@@ -6,21 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/manuel/CLionProjects/servidor/ArchivoTexto.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.cpp
+
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.h
 fstream
 -
 iostream
 -
 
-/home/manuel/CLionProjects/servidor/Serial.cpp
-Serial.h
-/home/manuel/CLionProjects/servidor/Serial.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.cpp
+JsonDoc.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.h
 
-/home/manuel/CLionProjects/servidor/Serial.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.h
+
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.cpp
+Serial.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.h
+
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.h
 cstdio
 -
+fstream
+-
+iostream
+-
 
-/home/manuel/CLionProjects/servidor/TCPserver.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.cpp
+
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.h
 zconf.h
 -
 iostream
@@ -44,15 +58,15 @@ sys/types.h
 sys/socket.h
 -
 
-/home/manuel/CLionProjects/servidor/main.cpp
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/main.cpp
 iostream
 -
 TCPserver.h
-/home/manuel/CLionProjects/servidor/TCPserver.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.h
 ArchivoTexto.h
-/home/manuel/CLionProjects/servidor/ArchivoTexto.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.h
 Serial.h
-/home/manuel/CLionProjects/servidor/Serial.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.h
 netdb.h
 -
 netinet/in.h

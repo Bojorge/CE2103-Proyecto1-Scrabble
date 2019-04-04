@@ -29,33 +29,49 @@ private:
     int sockfd, connfd;
     unsigned int len;
     struct sockaddr_in servaddr, cli;
+    char buff[MAX];
 
 
 public:
 
-    void func(int sockfd){
-        char buff[MAX];
-        int n;
+    void leerPaquete(int sockfd){
+        bzero(buff, MAX);
+
+        // read the message from client and copy it in buffer
+        read(sockfd, buff, sizeof(buff));
+        // print buffer which contains the client contents
+        printf("cliente envia >>> : %s\t");
+    }
+
+    void enviarPaquete(int sockfd){
+        bzero(buff, MAX);
+        printf("Enviar al cliente >>> : ", buff);
+        bzero(buff, MAX);
+        int n=0;
+        // copy server message in the buffer
+        while ((buff[n++] = getchar()) != '\n');
+        write(sockfd, buff, sizeof(buff));
+
+
+    }
+
+    bool terminarConexion(){
+        if (strncmp("exit", buff, 4) == 0) {
+            printf("Server Finalizado...\n");
+            return true;
+        }
+        return false;
+    }
+
+
+    void puerto(int sockfd){
         // infinite loop for chat
         for (;;) {
-            bzero(buff, MAX);
 
-            // read the message from client and copy it in buffer
-            read(sockfd, buff, sizeof(buff));
-            // print buffer which contains the client contents
-            printf("cliente envia >>> : %s\t Enviar al cliente >>> : ", buff);
-            bzero(buff, MAX);
-            n = 0;
-            // copy server message in the buffer
-            while ((buff[n++] = getchar()) != '\n')
-                ;
+            leerPaquete(sockfd);
+            enviarPaquete(sockfd);
 
-            // and send that buffer to client
-            write(sockfd, buff, sizeof(buff));
-
-            // if msg contains "Exit" then server exit and chat ended.
-            if (strncmp("exit", buff, 4) == 0) {
-                printf("Server Finalizado...\n");
+            if(terminarConexion()){
                 break;
             }
         }
@@ -102,7 +118,7 @@ public:
             printf("server acccept the client...\n");
 
         // Function for chatting between client and server
-        func(connfd);
+        puerto(connfd);
 
         // After chatting close the socket
         close(sockfd);

@@ -59,10 +59,10 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manuel/CLionProjects/cliente
+CMAKE_SOURCE_DIR = /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manuel/CLionProjects/cliente/cmake-build-debug
+CMAKE_BINARY_DIR = /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/cliente.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/manuel/CLionProjects/cliente/cmake-build-debug
 CMakeFiles/cliente.dir/all:
 	$(MAKE) -f CMakeFiles/cliente.dir/build.make CMakeFiles/cliente.dir/depend
 	$(MAKE) -f CMakeFiles/cliente.dir/build.make CMakeFiles/cliente.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/manuel/CLionProjects/cliente/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target cliente"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target cliente"
 .PHONY : CMakeFiles/cliente.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/cliente.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cliente.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manuel/CLionProjects/cliente/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cliente.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manuel/CLionProjects/cliente/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/cliente.dir/rule
 
 # Convenience name for target.

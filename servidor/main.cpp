@@ -19,9 +19,9 @@
 
 int main() {
 
-    //TCPserver servidor;
+    TCPserver servidor;
 
-    //servidor.iniciar();
+    servidor.iniciar();
 
     //ArchivoTexto datos;
     //datos.escribir("Mae estos son los datos que escribi");
@@ -29,8 +29,6 @@ int main() {
 
     //Serial serial;
     //serial.crearArchivoBinaro();
-    //serial.leerArchivoBinario();
-
 
 
 

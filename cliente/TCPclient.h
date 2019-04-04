@@ -24,27 +24,45 @@
 class TCPclient {
 
 private:
-    int sockfd, connfd;
-    struct sockaddr_in servaddr, cli;
 
+    char buff[MAX];
 
 public:
-    void func(int sockfd) {
-        char buff[MAX];
-        int n;
+
+    void leerPaquete(int sockfd){
+
+        bzero(buff, sizeof(buff));
+        read(sockfd, buff, sizeof(buff));
+        printf("Server envia >>> : %s", buff);
+    }
+
+    void enviarPaquete(int sockfd){
+
+        bzero(buff, sizeof(buff));
+        printf("Enviar al servidor >>> : ");
+        int n = 0;
+        while ((buff[n++] = getchar()) != '\n');
+        write(sockfd, buff, sizeof(buff));
+    }
+
+    bool terminarConexion(){
+        if ((strncmp(buff, "exit", 4)) == 0) {
+            printf("Cliente finalizado...\n");
+            return true;
+        }
+        return false;
+    }
+
+    void puerto(int sockfd) {
+
         for (;;) {
-            bzero(buff, sizeof(buff));
-            printf("Enviar al servidor >>> : ");
-            n = 0;
-            while ((buff[n++] = getchar()) != '\n');
-            write(sockfd, buff, sizeof(buff));
-            bzero(buff, sizeof(buff));
-            read(sockfd, buff, sizeof(buff));
-            printf("Server envia >>> : %s", buff);
-            if ((strncmp(buff, "exit", 4)) == 0) {
-                printf("Cliente finalizado...\n");
+
+            enviarPaquete(sockfd);
+            if(terminarConexion()){
                 break;
             }
+
+            leerPaquete(sockfd);
         }
     };
 
@@ -78,7 +96,7 @@ public:
             printf("se ha conectado al server..\n");
 
         // function for chat
-        func(sockfd);
+        puerto(sockfd);
 
         // close the socket
         close(sockfd);

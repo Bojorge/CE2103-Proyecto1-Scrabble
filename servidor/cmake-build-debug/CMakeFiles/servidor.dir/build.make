@@ -43,10 +43,10 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manuel/CLionProjects/servidor
+CMAKE_SOURCE_DIR = /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manuel/CLionProjects/servidor/cmake-build-debug
+CMAKE_BINARY_DIR = /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/servidor.dir/depend.make
@@ -59,62 +59,76 @@ include CMakeFiles/servidor.dir/flags.make
 
 CMakeFiles/servidor.dir/main.cpp.o: CMakeFiles/servidor.dir/flags.make
 CMakeFiles/servidor.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/CLionProjects/servidor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/servidor.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/servidor.dir/main.cpp.o -c /home/manuel/CLionProjects/servidor/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/servidor.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/servidor.dir/main.cpp.o -c /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/main.cpp
 
 CMakeFiles/servidor.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servidor.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manuel/CLionProjects/servidor/main.cpp > CMakeFiles/servidor.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/main.cpp > CMakeFiles/servidor.dir/main.cpp.i
 
 CMakeFiles/servidor.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servidor.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manuel/CLionProjects/servidor/main.cpp -o CMakeFiles/servidor.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/main.cpp -o CMakeFiles/servidor.dir/main.cpp.s
 
 CMakeFiles/servidor.dir/TCPserver.cpp.o: CMakeFiles/servidor.dir/flags.make
 CMakeFiles/servidor.dir/TCPserver.cpp.o: ../TCPserver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/CLionProjects/servidor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/servidor.dir/TCPserver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/servidor.dir/TCPserver.cpp.o -c /home/manuel/CLionProjects/servidor/TCPserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/servidor.dir/TCPserver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/servidor.dir/TCPserver.cpp.o -c /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.cpp
 
 CMakeFiles/servidor.dir/TCPserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servidor.dir/TCPserver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manuel/CLionProjects/servidor/TCPserver.cpp > CMakeFiles/servidor.dir/TCPserver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.cpp > CMakeFiles/servidor.dir/TCPserver.cpp.i
 
 CMakeFiles/servidor.dir/TCPserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servidor.dir/TCPserver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manuel/CLionProjects/servidor/TCPserver.cpp -o CMakeFiles/servidor.dir/TCPserver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.cpp -o CMakeFiles/servidor.dir/TCPserver.cpp.s
 
 CMakeFiles/servidor.dir/ArchivoTexto.cpp.o: CMakeFiles/servidor.dir/flags.make
 CMakeFiles/servidor.dir/ArchivoTexto.cpp.o: ../ArchivoTexto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/CLionProjects/servidor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/servidor.dir/ArchivoTexto.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/servidor.dir/ArchivoTexto.cpp.o -c /home/manuel/CLionProjects/servidor/ArchivoTexto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/servidor.dir/ArchivoTexto.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/servidor.dir/ArchivoTexto.cpp.o -c /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.cpp
 
 CMakeFiles/servidor.dir/ArchivoTexto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servidor.dir/ArchivoTexto.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manuel/CLionProjects/servidor/ArchivoTexto.cpp > CMakeFiles/servidor.dir/ArchivoTexto.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.cpp > CMakeFiles/servidor.dir/ArchivoTexto.cpp.i
 
 CMakeFiles/servidor.dir/ArchivoTexto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servidor.dir/ArchivoTexto.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manuel/CLionProjects/servidor/ArchivoTexto.cpp -o CMakeFiles/servidor.dir/ArchivoTexto.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.cpp -o CMakeFiles/servidor.dir/ArchivoTexto.cpp.s
 
 CMakeFiles/servidor.dir/Serial.cpp.o: CMakeFiles/servidor.dir/flags.make
 CMakeFiles/servidor.dir/Serial.cpp.o: ../Serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/CLionProjects/servidor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/servidor.dir/Serial.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/servidor.dir/Serial.cpp.o -c /home/manuel/CLionProjects/servidor/Serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/servidor.dir/Serial.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/servidor.dir/Serial.cpp.o -c /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.cpp
 
 CMakeFiles/servidor.dir/Serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servidor.dir/Serial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manuel/CLionProjects/servidor/Serial.cpp > CMakeFiles/servidor.dir/Serial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.cpp > CMakeFiles/servidor.dir/Serial.cpp.i
 
 CMakeFiles/servidor.dir/Serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servidor.dir/Serial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manuel/CLionProjects/servidor/Serial.cpp -o CMakeFiles/servidor.dir/Serial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.cpp -o CMakeFiles/servidor.dir/Serial.cpp.s
+
+CMakeFiles/servidor.dir/JsonDoc.cpp.o: CMakeFiles/servidor.dir/flags.make
+CMakeFiles/servidor.dir/JsonDoc.cpp.o: ../JsonDoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/servidor.dir/JsonDoc.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/servidor.dir/JsonDoc.cpp.o -c /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.cpp
+
+CMakeFiles/servidor.dir/JsonDoc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servidor.dir/JsonDoc.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.cpp > CMakeFiles/servidor.dir/JsonDoc.cpp.i
+
+CMakeFiles/servidor.dir/JsonDoc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servidor.dir/JsonDoc.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.cpp -o CMakeFiles/servidor.dir/JsonDoc.cpp.s
 
 # Object files for target servidor
 servidor_OBJECTS = \
 "CMakeFiles/servidor.dir/main.cpp.o" \
 "CMakeFiles/servidor.dir/TCPserver.cpp.o" \
 "CMakeFiles/servidor.dir/ArchivoTexto.cpp.o" \
-"CMakeFiles/servidor.dir/Serial.cpp.o"
+"CMakeFiles/servidor.dir/Serial.cpp.o" \
+"CMakeFiles/servidor.dir/JsonDoc.cpp.o"
 
 # External object files for target servidor
 servidor_EXTERNAL_OBJECTS =
@@ -123,9 +137,10 @@ servidor: CMakeFiles/servidor.dir/main.cpp.o
 servidor: CMakeFiles/servidor.dir/TCPserver.cpp.o
 servidor: CMakeFiles/servidor.dir/ArchivoTexto.cpp.o
 servidor: CMakeFiles/servidor.dir/Serial.cpp.o
+servidor: CMakeFiles/servidor.dir/JsonDoc.cpp.o
 servidor: CMakeFiles/servidor.dir/build.make
 servidor: CMakeFiles/servidor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/manuel/CLionProjects/servidor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable servidor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable servidor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/servidor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +153,6 @@ CMakeFiles/servidor.dir/clean:
 .PHONY : CMakeFiles/servidor.dir/clean
 
 CMakeFiles/servidor.dir/depend:
-	cd /home/manuel/CLionProjects/servidor/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manuel/CLionProjects/servidor /home/manuel/CLionProjects/servidor /home/manuel/CLionProjects/servidor/cmake-build-debug /home/manuel/CLionProjects/servidor/cmake-build-debug /home/manuel/CLionProjects/servidor/cmake-build-debug/CMakeFiles/servidor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles/servidor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/servidor.dir/depend
 

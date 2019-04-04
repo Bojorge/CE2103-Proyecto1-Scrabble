@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/manuel/CLionProjects/cliente/TCPclient.cpp" "/home/manuel/CLionProjects/cliente/cmake-build-debug/CMakeFiles/cliente.dir/TCPclient.cpp.o"
-  "/home/manuel/CLionProjects/cliente/main.cpp" "/home/manuel/CLionProjects/cliente/cmake-build-debug/CMakeFiles/cliente.dir/main.cpp.o"
+  "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/TCPclient.cpp" "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/cmake-build-debug/CMakeFiles/cliente.dir/TCPclient.cpp.o"
+  "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/main.cpp" "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/cmake-build-debug/CMakeFiles/cliente.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

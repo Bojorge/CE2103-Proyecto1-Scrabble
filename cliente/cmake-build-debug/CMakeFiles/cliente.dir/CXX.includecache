@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/manuel/CLionProjects/cliente/TCPclient.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/TCPclient.cpp
+
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/TCPclient.h
 iostream
 -
 netdb.h
@@ -24,11 +26,11 @@ zconf.h
 arpa/inet.h
 -
 
-/home/manuel/CLionProjects/cliente/main.cpp
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/main.cpp
 iostream
 -
 TCPclient.h
-/home/manuel/CLionProjects/cliente/TCPclient.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/TCPclient.h
 netdb.h
 -
 stdio.h
