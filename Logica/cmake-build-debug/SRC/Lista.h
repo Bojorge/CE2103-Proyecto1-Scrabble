@@ -12,7 +12,7 @@
 class Lista {
 
 public: Lista* siguiente;
-public: Lista* lista;
+public: Lista lista;
 Nodo* Inicio = NULL;
 
 public:void anadir_final (int dato){
@@ -115,12 +115,12 @@ public:void print_lista(){
         std::cout << " " << std::endl;
         return ;
     }
-/// Funcion que relena toda la lista con elementos 0
+
 public:void rellenarLista(){
     int val = 15;
     int i = 0;
     while(val > 0){
-        lista->cambiar_Dato(i,0);
+        lista.cambiar_Dato(i,0);
         i++;
         val--;
     }
