@@ -7,7 +7,7 @@
 
 int main() {
     std::cout << " Prueba Listas " << std::endl;
-    Lista* a = new Lista();
+    ListaM* a = new ListaM();
     a->anadir_final(5);
     a->anadir_final(7);
     a->anadir_final(8);
@@ -21,9 +21,9 @@ int main() {
     std::cout << " Prueba Partida" << std::endl;
     Partida* p = new Partida();
     //AÑADIR PALABRA
-    Lista* perro = new Lista();
-    Lista* ayo = new Lista();
-    Lista* g = new Lista();
+    ListaM* perro = new ListaM();
+    ListaM* ayo = new ListaM();
+    ListaM* g = new ListaM();
 
     perro->anadir_final(5);perro->anadir_final(9);perro->anadir_final(18);
     perro->anadir_final(5);perro->anadir_final(10);perro->anadir_final(5);
@@ -41,7 +41,6 @@ int main() {
     p->poner_lista_Matriz(ayo);
 
 
-    p->print_matriz();
     std::cout << " Tamaño de la lista de letras: "<< p->lista_letras->listaLetras->tamano() << std::endl;
     p->lista_letras->tS.print_lista();
     std::cout << " " <<  std::endl;
@@ -64,5 +63,46 @@ int main() {
 
     std::cout << " -------------------------------------" << std::endl;
     p->lista_letras->verificar_Palabra(palabra1);
+
+    std::cout<<""<<std::endl;
+    std::cout<<""<<std::endl;std::cout << " -------------Prueba a buscar palabra verifiar y asignar puntos--------------------------" << std::endl;
+    std::cout<<""<<std::endl;std::cout << " -------Caso 1, encuentra palabra en matriz y diccionario --------------------------" << std::endl;
+    ListaM* caso1 = new ListaM(); caso1->anadir_final(6);caso1->anadir_final(9);caso1->anadir_final(1);
+                                caso1->anadir_final(7);caso1->anadir_final(9);caso1->anadir_final(23);
+                                caso1->anadir_final(8);caso1->anadir_final(9);caso1->anadir_final(17);
+    p->encontraryasignar(caso1);
+
+    std::cout<<""<<std::endl;std::cout << " ------Caso 2, encuentra palabra en matriz y  pero no en diccionario ---------------" << std::endl;
+    ListaM* caso2 = new ListaM();caso2->anadir_final(8);caso2->anadir_final(10);caso2->anadir_final(1);
+                               caso2->anadir_final(8);caso2->anadir_final(11);caso2->anadir_final(28);
+    p->encontraryasignar(caso2);
+
+    std::cout<<""<<std::endl;std::cout << " ------Caso 2.1, encuentra palabra en matriz y  pero no en diccionario -------------" << std::endl;
+                             std::cout << "                 Entonces el cliente quiere reintentar" << std::endl;
+
+    p->reintentar(caso2); caso2 = new ListaM();caso2->anadir_final(8);caso2->anadir_final(6);caso2->anadir_final(12);
+                                              caso2->anadir_final(8);caso2->anadir_final(7);caso2->anadir_final(1);
+                                              caso2->anadir_final(8);caso2->anadir_final(8);caso2->anadir_final(28);
+
+    p->encontraryasignar(caso2);
+
+
+    std::cout<<""<<std::endl;std::cout << " ------Caso 2.2, encuentra palabra en matriz y  pero no en diccionario -------------" << std::endl;
+                             std::cout << "                 El cliente va a llamar al experto" << std::endl;
+    std::cout<<"  Por determinar"<<std::endl;
+
+    std::cout<<""<<std::endl;std::cout << " ------Caso 3, no encuentra palabra en matriz por lo tanto en diccionario tampoco----" << std::endl;
+    ListaM* caso3 = new ListaM();caso3->anadir_final(2);caso3->anadir_final(7);
+
+    p->encontraryasignar(caso3);
+
+    std::cout<<""<<std::endl;std::cout << " --------------------------------------------------------------------------------" << std::endl;
+
+    p->print_matriz();
+
+    std::cout<<""<<std::endl;std::cout << " --------Prueba Nueva Matriz---------------------" << std::endl;
+
+
+
     return 0;
 };
