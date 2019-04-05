@@ -68,7 +68,7 @@ public: int obtener_Puntaje(int num){
 /// retorna "" si no encontro palabra
 /// \param p, lista con las letras que el cliente puto
 /// \return string, posible palabra
-public: std::string buscar_Palabras(ListaM* p){
+public: std::string buscar_Palabras(Lista* p){
         std::string texto = "";
         if (p->tamano() == 3) {
             std::string tV = "";
@@ -103,7 +103,7 @@ public: std::string buscar_Palabras(ListaM* p){
 /// retorna "" si no encontro palabra
 /// \param p, lista de letras que el cliente puso
 /// \return strign si encontro una palabra
-private: std::string buscar_Horizontal(ListaM* p){
+private: std::string buscar_Horizontal(Lista* p){
         std::string texto = "";
         int x = p->obtener_dato(0);
         //Hacia DERECHA
@@ -123,7 +123,7 @@ private: std::string buscar_Horizontal(ListaM* p){
 /// retorna "" si no encontro palabra
 /// \param p, lista de letras que el cliente puso
 /// \return strign si encontro una palabra
-private: std::string buscar_Vertical(ListaM* p){
+private: std::string buscar_Vertical(Lista* p){
         std::string texto = "";
         int y = p->obtener_dato(1);
         //Hacia arriba
@@ -157,7 +157,7 @@ private: std::string concatenar(std::string texto,int letra, int direc ){
     }
 ///Fucion que dada una lista con untamano divisible entre 3, coloca las letras en las posiciones indicadas
 /// \param p, lista con las letras y posiciones que se desean
-public: void poner_lista_Matriz(ListaM* p){
+public: void poner_lista_Matriz(Lista* p){
         try {
         for(int i = 0; i < (p->tamano()); i++){
             matriz->poner_Dato(p->obtener_dato(i),
@@ -176,7 +176,7 @@ public: void poner_lista_Matriz(ListaM* p){
 /// por ultimo, asgina puntaje
 /// \param p, lista con las letras y posiciones que se desean
 /// \return bool, true, si todo fue corecto, false, si hay algun error
-public: bool encontraryasignar(ListaM* p){
+public: bool encontraryasignar(Lista* p){
     if (p->tamano() < 3){
         std::cout << " Error " << std::endl;
         return false;
@@ -201,7 +201,7 @@ public: bool encontraryasignar(ListaM* p){
 }
 ///Fucion que dada una lista con untamano divisible entre 3, borra las letras en las posiciones indicadas
 /// \param p, lista con las letras y posiciones que se desean
-public: void reintentar(ListaM* p){
+public: void reintentar(Lista* p){
     std::string palabra = "";
         try {
             for(int i = 0; i < (p->tamano()); i++){

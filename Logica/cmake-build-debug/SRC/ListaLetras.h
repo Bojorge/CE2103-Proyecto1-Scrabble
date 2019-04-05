@@ -19,7 +19,7 @@ using namespace std;
 
 class ListaLetras {
 
-public: ListaM* listaLetras;
+public: Lista* listaLetras;
 public: ListaT<string> tS;
 public: ListaT<int> tP;
 
@@ -27,7 +27,7 @@ public: ListaT<int> tP;
 /// llena la lista de letras (TS) con las letras posibles en el juego
 /// llena la lista de puntajes (tp) con los puntajes de cada letra
 public: ListaLetras(){
-    listaLetras = new ListaM();
+    listaLetras = new Lista();
     for(int i = 0; i < 12 ; i++){
         listaLetras->anadir_final(1);listaLetras->anadir_final(5);
     }for(int j = 0; j < 9 ; j++){
@@ -121,7 +121,10 @@ public: bool verificar_Palabra(string pal){
     cout << "  ERROR - La palabra no se encontro "<<  endl;
     return false;
 }
-
+/// funcion que compara un string ingresado con una lista con las letras
+/// el string se compara para determinar la posicion en donde esta la palabra
+/// \param string, letra que se desea traducuir
+/// \return int, numero que representa la letra
 public: int traducir_string_int(string a){
     int letra= 0;
     for (int i = 0; i < listaLetras->tamano(); i++){

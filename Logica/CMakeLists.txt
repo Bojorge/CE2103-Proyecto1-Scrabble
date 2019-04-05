@@ -16,7 +16,8 @@ add_executable (gtk-test main.cpp cmake-build-debug/SRC/Lista.h
         cmake-build-debug/SRC/ListaT.h
         cmake-build-debug/SRC/NodoT.h
         cmake-build-debug/SRC/Jugador.h
-        cmake-build-debug/SRC/ListaLetras.h)
+        cmake-build-debug/SRC/ListaLetras.h
+        )
 add_definitions (${GTK2_CFLAGS_OTHER})
 target_link_libraries (gtk-test ${GTK2_LIBRARIES})
 
