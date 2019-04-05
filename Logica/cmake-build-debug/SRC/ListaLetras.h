@@ -19,7 +19,7 @@ using namespace std;
 
 class ListaLetras {
 
-public: Lista* listaLetras;
+public: ListaM* listaLetras;
 public: ListaT<string> tS;
 public: ListaT<int> tP;
 
@@ -27,7 +27,7 @@ public: ListaT<int> tP;
 /// llena la lista de letras (TS) con las letras posibles en el juego
 /// llena la lista de puntajes (tp) con los puntajes de cada letra
 public: ListaLetras(){
-    listaLetras = new Lista();
+    listaLetras = new ListaM();
     for(int i = 0; i < 12 ; i++){
         listaLetras->anadir_final(1);listaLetras->anadir_final(5);
     }for(int j = 0; j < 9 ; j++){
@@ -77,6 +77,18 @@ public: string traducir(int num){
 public:int obtener_puntaje(int num){
     return tP.obtener_dato(num);
 }
+/// Funcion que dado un numero asigna un puntaja, comparando con una lista
+/// \param string, letra que se desea conocer el puntaje
+/// \return int, puntaje de la letra
+public:int obtener_puntaje(string pal){
+        int puntaje = 0;
+        int j = 1;
+        for(int i = 0; i < pal.length();i++){
+            string p = pal.substr(i,j);
+            puntaje = puntaje + obtener_puntaje(traducir_string_int(p));
+        }
+        return puntaje;
+    }
 
 /// Fucion que busca en un archivo de texto la palabra ingresada
 /// \param pal, string con la letra que se desea buscar
@@ -91,7 +103,6 @@ public: bool verificar_Palabra(string pal){
 
     ifstream diccionario;
     diccionario.open("Diccionario/Listado.txt");
-    cout << "  ---se intenta abrir el archivo--"<<  endl;
     string line;
     int offset;
     if (!diccionario.is_open()){
@@ -107,8 +118,18 @@ public: bool verificar_Palabra(string pal){
             }
         }
     }
-
+    cout << "  ERROR - La palabra no se encontro "<<  endl;
     return false;
+}
+
+public: int traducir_string_int(string a){
+    int letra= 0;
+    for (int i = 0; i < listaLetras->tamano(); i++){
+        if (tS.obtener_dato(i) == a){
+            return i;
+        }
+    }
+    return letra;
 }
 
 };

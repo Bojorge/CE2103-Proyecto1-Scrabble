@@ -15,7 +15,7 @@ class Jugador {
 
 public: std::string Nombre;
 public: int ip;
-public: Lista* fichas = new Lista();
+public: ListaM* fichas = new ListaM();
 public: int Puntaje = 0;
 
 
