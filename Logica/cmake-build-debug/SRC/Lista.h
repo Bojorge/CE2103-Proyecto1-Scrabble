@@ -11,6 +11,8 @@
 /// Clase de una lista enlazada de numeros
 class Lista {
 
+public: Lista* siguiente;
+public: Lista lista;
 Nodo* Inicio = NULL;
 
 public:void anadir_final (int dato){
@@ -113,6 +115,18 @@ public:void print_lista(){
         std::cout << " " << std::endl;
         return ;
     }
+
+public:void rellenarLista(){
+    int val = 15;
+    int i = 0;
+    while(val > 0){
+        lista.cambiar_Dato(i,0);
+        i++;
+        val--;
+    }
+    return;
+}
+
 /// Funcion que aplica insetion sort, a una lista ingresada
 /// \param list, lista que se desea ordenar
 /// \return lista ordenada
