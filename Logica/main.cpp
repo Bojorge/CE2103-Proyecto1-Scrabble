@@ -11,7 +11,12 @@ int main() {
     a->anadir_final(5);
     a->anadir_final(7);
     a->anadir_final(8);
+    a->anadir_final(9);
+    a->anadir_final(10);
+
+    a->borrar_Dato(2);
     a->print_lista();
+
 
     std::cout << " Prueba Matriz" << std::endl;
     Matriz *m = new Matriz(3, 3);

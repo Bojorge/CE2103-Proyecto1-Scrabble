@@ -43,24 +43,36 @@ public:int tamano(){
 
 /// Fucion que elimina un dato en la posicion indicada
 /// \param posicion, posicion en la lista del dato que se desea eliminar
-public:void borrar_Dato(int posicion){
+public:void borrar_Dato(int posicion) {
         if (Inicio == NULL) {
             return;
         }
-        if(tamano() < posicion){
+        if (tamano() < posicion || posicion == 0) {
             return;
         }
-        Nodo* temp = Inicio;
-        for (int i = 0; i <= (posicion - 2); i++){
-            temp = temp->siguiente;
-        }
-        if (temp->siguiente != NULL){
-            Nodo* temp2 = temp->siguiente;
-            if(temp2->siguiente != NULL){
-                temp->siguiente = temp2->siguiente;
-            }else if(temp2->siguiente == NULL){
-                temp->siguiente = NULL;
+        try {
+            if (posicion == 1) {
+                Inicio = Inicio->siguiente;
+                return;
             }
+            if (posicion == 2) {
+                Inicio->siguiente = Inicio->siguiente->siguiente;
+                return;
+            }
+            Nodo *temp = Inicio;
+            for (int i = 1; i <= (posicion - 2); i++) {
+                temp = temp->siguiente;
+            }
+            if (temp->siguiente != NULL) {
+                Nodo *temp2 = temp->siguiente;
+                if (temp2->siguiente != NULL) {
+                    temp->siguiente = temp2->siguiente;
+                } else if (temp2->siguiente == NULL) {
+                    temp->siguiente = NULL;
+                }
+            }
+        }catch(...){
+            std::cout << "La Lista no tiene suficionetes datos" << std::endl;
         }
         return;
     }
