@@ -1,0 +1,4 @@
+/home/aaron/CLionProjects/interfaz/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/aaron/CLionProjects/interfaz/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/aaron/CLionProjects/interfaz/cmake-build-debug/CMakeFiles/gtk-test.dir
+/home/aaron/CLionProjects/interfaz/cmake-build-debug/CMakeFiles/prueba.dir
