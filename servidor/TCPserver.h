@@ -16,6 +16,7 @@
 #include <zconf.h>
 #include <sys/types.h>
 #include <sys/socket.h>
+#include "ArchivoTexto.h"
 
 #define MAX 80
 #define PORT 8080
@@ -31,6 +32,9 @@ private:
     struct sockaddr_in servaddr, cli;
     char buff[MAX];
 
+private:
+    ArchivoTexto recibido;
+
 
 public:
 
@@ -39,6 +43,10 @@ public:
 
         // read the message from client and copy it in buffer
         read(sockfd, buff, sizeof(buff));
+
+        //recibido.escribir((string) buff, "Recibido.txt");
+        //recibido.leer("Recibido.txt");
+
         // print buffer which contains the client contents
         printf("cliente envia >>> : %s\t");
     }

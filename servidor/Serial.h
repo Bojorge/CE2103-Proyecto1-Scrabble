@@ -12,14 +12,12 @@
 
 class Serial {
 
+
     struct Objeto{
         int Xposicion;
         int Yposicion;
         char letra[256];
     };
-
-private:
-
 
 
 

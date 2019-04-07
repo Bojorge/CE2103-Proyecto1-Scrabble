@@ -13,6 +13,14 @@ CMakeFiles/servidor.dir/TCPserver.cpp.o
  /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.cpp
 CMakeFiles/servidor.dir/main.cpp.o
  /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.h
+ /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Jugador.h
+ /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Lista.h
+ /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ListaLetras.h
+ /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ListaT.h
+ /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Matriz.h
+ /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Nodo.h
+ /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/NodoT.h
+ /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Partida.h
  /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.h
  /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.h
  /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/main.cpp

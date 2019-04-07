@@ -123,6 +123,60 @@ cliente/fast:
 	$(MAKE) -f CMakeFiles/cliente.dir/build.make CMakeFiles/cliente.dir/build
 .PHONY : cliente/fast
 
+ArchivoTexto.o: ArchivoTexto.cpp.o
+
+.PHONY : ArchivoTexto.o
+
+# target to build an object file
+ArchivoTexto.cpp.o:
+	$(MAKE) -f CMakeFiles/cliente.dir/build.make CMakeFiles/cliente.dir/ArchivoTexto.cpp.o
+.PHONY : ArchivoTexto.cpp.o
+
+ArchivoTexto.i: ArchivoTexto.cpp.i
+
+.PHONY : ArchivoTexto.i
+
+# target to preprocess a source file
+ArchivoTexto.cpp.i:
+	$(MAKE) -f CMakeFiles/cliente.dir/build.make CMakeFiles/cliente.dir/ArchivoTexto.cpp.i
+.PHONY : ArchivoTexto.cpp.i
+
+ArchivoTexto.s: ArchivoTexto.cpp.s
+
+.PHONY : ArchivoTexto.s
+
+# target to generate assembly for a file
+ArchivoTexto.cpp.s:
+	$(MAKE) -f CMakeFiles/cliente.dir/build.make CMakeFiles/cliente.dir/ArchivoTexto.cpp.s
+.PHONY : ArchivoTexto.cpp.s
+
+Serial.o: Serial.cpp.o
+
+.PHONY : Serial.o
+
+# target to build an object file
+Serial.cpp.o:
+	$(MAKE) -f CMakeFiles/cliente.dir/build.make CMakeFiles/cliente.dir/Serial.cpp.o
+.PHONY : Serial.cpp.o
+
+Serial.i: Serial.cpp.i
+
+.PHONY : Serial.i
+
+# target to preprocess a source file
+Serial.cpp.i:
+	$(MAKE) -f CMakeFiles/cliente.dir/build.make CMakeFiles/cliente.dir/Serial.cpp.i
+.PHONY : Serial.cpp.i
+
+Serial.s: Serial.cpp.s
+
+.PHONY : Serial.s
+
+# target to generate assembly for a file
+Serial.cpp.s:
+	$(MAKE) -f CMakeFiles/cliente.dir/build.make CMakeFiles/cliente.dir/Serial.cpp.s
+.PHONY : Serial.cpp.s
+
 TCPclient.o: TCPclient.cpp.o
 
 .PHONY : TCPclient.o
@@ -186,6 +240,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cliente"
 	@echo "... edit_cache"
+	@echo "... ArchivoTexto.o"
+	@echo "... ArchivoTexto.i"
+	@echo "... ArchivoTexto.s"
+	@echo "... Serial.o"
+	@echo "... Serial.i"
+	@echo "... Serial.s"
 	@echo "... TCPclient.o"
 	@echo "... TCPclient.i"
 	@echo "... TCPclient.s"

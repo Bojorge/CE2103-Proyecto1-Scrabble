@@ -17,10 +17,10 @@ class ArchivoTexto {
 
 public:
 
-    void escribir(string texto){
+    void escribir(string texto, string nombreArchivo){
     std::ofstream archivo;
 
-    archivo.open("datosServer.txt",std::ios::out);
+    archivo.open(nombreArchivo,std::ios::out);
 
     if (archivo.fail()){
         cout<<"No se pudo abrir el archivo"<<endl;

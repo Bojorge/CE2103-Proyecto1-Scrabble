@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/ArchivoTexto.cpp">
+			<Option target="cliente"/>
+		</Unit>
+		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/ArchivoTexto.h">
+			<Option target="cliente"/>
+		</Unit>
+		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/Serial.cpp">
+			<Option target="cliente"/>
+		</Unit>
+		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/Serial.h">
+			<Option target="cliente"/>
+		</Unit>
 		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/cliente/TCPclient.cpp">
 			<Option target="cliente"/>
 		</Unit>

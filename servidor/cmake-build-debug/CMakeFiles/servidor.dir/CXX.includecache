@@ -6,23 +6,75 @@
 
 #IncludeRegexTransform: 
 
-/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.cpp
-
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.h
 fstream
 -
 iostream
 -
 
-/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.cpp
-JsonDoc.h
-/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Jugador.h
+string
+-
+iostream
+-
+Lista.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Lista.h
 
-/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Lista.h
+iostream
+-
+Nodo.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Nodo.h
 
-/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.cpp
-Serial.h
-/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ListaLetras.h
+string
+-
+fstream
+-
+Lista.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Lista.h
+ListaT.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ListaT.h
+
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ListaT.h
+iostream
+-
+NodoT.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/NodoT.h
+
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Matriz.h
+malloc.h
+-
+iostream
+-
+string
+-
+ListaLetras.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ListaLetras.h
+
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Nodo.h
+clocale
+-
+
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/NodoT.h
+clocale
+-
+
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Partida.h
+random
+-
+string
+-
+Lista.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Lista.h
+Matriz.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Matriz.h
+ListaT.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ListaT.h
+Jugador.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Jugador.h
+ListaLetras.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ListaLetras.h
 
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.h
 cstdio
@@ -31,8 +83,6 @@ fstream
 -
 iostream
 -
-
-/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.cpp
 
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.h
 zconf.h
@@ -57,6 +107,8 @@ sys/types.h
 -
 sys/socket.h
 -
+ArchivoTexto.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.h
 
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/main.cpp
 iostream
@@ -85,4 +137,14 @@ sys/types.h
 -
 sys/socket.h
 -
+iostream
+-
+string
+-
+Lista.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Lista.h
+Matriz.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Matriz.h
+Partida.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Partida.h
 
