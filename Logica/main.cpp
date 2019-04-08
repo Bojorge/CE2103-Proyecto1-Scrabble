@@ -105,9 +105,12 @@ int main() {
 
     p->print_matriz();
 
-    std::cout<<""<<std::endl;std::cout << " --------Prueba Nueva Matriz---------------------" << std::endl;
+    std::cout<<""<<std::endl;std::cout << " --------Prueba Nueva encadenado---------------------" << std::endl;
+    std::cout<<false<<std::flush;std::cout<<true<<std::endl;
+    Lista* l = new Lista(); l->anadir_final(7);l->anadir_final(9);l->anadir_final(7);
+    Lista* enca = new Lista();enca->anadir_final(5);enca->anadir_final(9);enca->anadir_final(1);
+                              enca->anadir_final(6);enca->anadir_final(9);enca->anadir_final(2);
 
-
-
+    std::cout<<p->encadenado(enca,l,8,9)<<std::endl;
     return 0;
 };
