@@ -3,16 +3,9 @@
 
 CMakeFiles/servidor.dir/ArchivoTexto.cpp.o
  /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.cpp
-CMakeFiles/servidor.dir/JsonDoc.cpp.o
- /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.cpp
- /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.h
-CMakeFiles/servidor.dir/Serial.cpp.o
- /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.cpp
- /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.h
-CMakeFiles/servidor.dir/TCPserver.cpp.o
- /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.cpp
 CMakeFiles/servidor.dir/main.cpp.o
  /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.h
+ /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.h
  /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Jugador.h
  /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Lista.h
  /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ListaLetras.h

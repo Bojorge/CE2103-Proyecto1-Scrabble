@@ -33,13 +33,14 @@ public:
 
         bzero(buff, sizeof(buff));
         read(sockfd, buff, sizeof(buff));
+
         printf("Server envia >>> : %s", buff);
     }
 
     void enviarPaquete(int sockfd){
 
         bzero(buff, sizeof(buff));
-        printf("Enviar al servidor >>> : ");
+        printf("    Enviar al servidor >>> : ");
         int n = 0;
         while ((buff[n++] = getchar()) != '\n');
         write(sockfd, buff, sizeof(buff));
@@ -52,6 +53,11 @@ public:
         }
         return false;
     }
+
+
+
+
+
 
     void puerto(int sockfd) {
 

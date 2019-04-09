@@ -5,9 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.cpp" "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles/servidor.dir/ArchivoTexto.cpp.o"
-  "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.cpp" "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles/servidor.dir/JsonDoc.cpp.o"
-  "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.cpp" "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles/servidor.dir/Serial.cpp.o"
-  "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.cpp" "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles/servidor.dir/TCPserver.cpp.o"
   "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/main.cpp" "/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles/servidor.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

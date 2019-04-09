@@ -12,6 +12,16 @@ fstream
 iostream
 -
 
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.h
+rapidjson/document.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/rapidjson/document.h
+rapidjson/writer.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/rapidjson/writer.h
+rapidjson/stringbuffer.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/rapidjson/stringbuffer.h
+iostream
+-
+
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Jugador.h
 string
 -
@@ -21,8 +31,6 @@ Lista.h
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Lista.h
 
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Lista.h
-iostream
--
 Nodo.h
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Nodo.h
 
@@ -107,8 +115,14 @@ sys/types.h
 -
 sys/socket.h
 -
+arpa/inet.h
+-
 ArchivoTexto.h
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.h
+Partida.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Partida.h
+pthread.h
+-
 
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/main.cpp
 iostream
@@ -133,18 +147,30 @@ sys/types.h
 -
 zconf.h
 -
-sys/types.h
--
-sys/socket.h
--
-iostream
--
-string
--
 Lista.h
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Lista.h
 Matriz.h
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Matriz.h
 Partida.h
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Partida.h
+JsonDoc.h
+/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.h
+sys/types.h
+-
+sys/socket.h
+-
+pthread.h
+-
+mutex
+-
+thread
+-
+vector
+-
+functional
+-
+atomic
+-
+queue
+-
 

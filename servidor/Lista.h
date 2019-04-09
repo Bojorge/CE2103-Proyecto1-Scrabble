@@ -5,8 +5,6 @@
 #ifndef SERVIDOR_LISTA_H
 #define SERVIDOR_LISTA_H
 
-
-#include <iostream>
 #include "Nodo.h"
 
 /// Clase de una lista enlazada de numeros
@@ -44,24 +42,36 @@ public:int tamano(){
 
 /// Fucion que elimina un dato en la posicion indicada
 /// \param posicion, posicion en la lista del dato que se desea eliminar
-public:void borrar_Dato(int posicion){
+public:void borrar_Dato(int posicion) {
         if (Inicio == NULL) {
             return;
         }
-        if(tamano() < posicion){
+        if (tamano() < posicion || posicion == 0) {
             return;
         }
-        Nodo* temp = Inicio;
-        for (int i = 0; i <= (posicion - 2); i++){
-            temp = temp->siguiente;
-        }
-        if (temp->siguiente != NULL){
-            Nodo* temp2 = temp->siguiente;
-            if(temp2->siguiente != NULL){
-                temp->siguiente = temp2->siguiente;
-            }else if(temp2->siguiente == NULL){
-                temp->siguiente = NULL;
+        try {
+            if (posicion == 1) {
+                Inicio = Inicio->siguiente;
+                return;
             }
+            if (posicion == 2) {
+                Inicio->siguiente = Inicio->siguiente->siguiente;
+                return;
+            }
+            Nodo *temp = Inicio;
+            for (int i = 1; i <= (posicion - 2); i++) {
+                temp = temp->siguiente;
+            }
+            if (temp->siguiente != NULL) {
+                Nodo *temp2 = temp->siguiente;
+                if (temp2->siguiente != NULL) {
+                    temp->siguiente = temp2->siguiente;
+                } else if (temp2->siguiente == NULL) {
+                    temp->siguiente = NULL;
+                }
+            }
+        }catch(...){
+            std::cout << "La Lista no tiene suficionetes datos" << std::endl;
         }
         return;
     }
@@ -107,6 +117,17 @@ public:void cambiar_Dato (int posicion, int dato){
         temp->Dato = dato;
     }
 
+public:void cambiar_Dato_a_char (int posicion, char dato){
+        if (Inicio == NULL) {
+            return;
+        }
+        Nodo* temp = Inicio;
+        for (int i = 0; i <= (posicion - 1); i++){
+            temp = temp->siguiente;
+        }
+        temp->Dato = dato;
+    }
+
 public:void print_lista(){
         Nodo* temp = Inicio;
         for(int i = 0; i < tamano();i++){
@@ -116,7 +137,7 @@ public:void print_lista(){
         std::cout << " " << std::endl;
         return ;
     }
-
+/// Funcion que relena toda la lista con elementos 0
 public:void rellenarLista(){
         int val = 15;
         int i = 0;
@@ -148,6 +169,5 @@ public :Lista* ordenar(Lista* list){
     }
 
 };
-
 
 #endif //SERVIDOR_LISTA_H

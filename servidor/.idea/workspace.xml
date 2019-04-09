@@ -12,53 +12,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2826be6-a330-4a38-aacb-7b7f69ab825e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Jugador.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lista.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListaLetras.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListaT.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matriz.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nodo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodoT.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Partida.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cliente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/ArchivoTexto.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/ArchivoTexto.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/Serial.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/Serial.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente/TCPclient.h" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/TCPclient.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/CMakeFiles/cliente.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/cliente" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/cliente" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cliente/cmake-build-debug/cliente.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/cmake-build-debug/cliente.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cliente/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cliente/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArchivoTexto.h" beforeDir="false" afterPath="$PROJECT_DIR$/ArchivoTexto.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial.h" beforeDir="false" afterPath="$PROJECT_DIR$/Serial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonDoc.h" beforeDir="false" afterPath="$PROJECT_DIR$/JsonDoc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jugador.h" beforeDir="false" afterPath="$PROJECT_DIR$/Jugador.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista.h" beforeDir="false" afterPath="$PROJECT_DIR$/Lista.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Partida.h" beforeDir="false" afterPath="$PROJECT_DIR$/Partida.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TCPserver.h" beforeDir="false" afterPath="$PROJECT_DIR$/TCPserver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadPool.h" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadPool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/ArchivoTexto.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/ArchivoTexto.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/Serial.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/Serial.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/JsonDoc.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/Serial.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/TCPserver.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servidor.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/datosServer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/datosServer.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/servidor" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/servidor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/servidor.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/servidor.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -76,11 +63,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+            <state relative-caret-position="74">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#615#632#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TCPserver.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="e#100#118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JsonDoc.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+              <folding>
+                <element signature="e#96#127#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,27 +106,29 @@
       <list>
         <option value="$PROJECT_DIR$/TCPserver.cpp" />
         <option value="$PROJECT_DIR$/ArchivoTexto.cpp" />
-        <option value="$PROJECT_DIR$/JsonDoc.h" />
         <option value="$PROJECT_DIR$/Serial.h" />
         <option value="$PROJECT_DIR$/ArchivoTexto.h" />
-        <option value="$PROJECT_DIR$/TCPserver.h" />
-        <option value="$PROJECT_DIR$/Jugador.h" />
-        <option value="$PROJECT_DIR$/Lista.h" />
         <option value="$PROJECT_DIR$/ListaLetras.h" />
         <option value="$PROJECT_DIR$/ListaT.h" />
         <option value="$PROJECT_DIR$/Matrix.h" />
         <option value="$PROJECT_DIR$/Matriz.h" />
         <option value="$PROJECT_DIR$/Nodo.h" />
-        <option value="$PROJECT_DIR$/Partida.h" />
         <option value="$PROJECT_DIR$/NodoT.h" />
+        <option value="$PROJECT_DIR$/ThreadPool.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Partida.h" />
+        <option value="$PROJECT_DIR$/Jugador.h" />
+        <option value="$PROJECT_DIR$/Lista.h" />
+        <option value="$PROJECT_DIR$/TCPserver.h" />
+        <option value="$PROJECT_DIR$/JsonDoc.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="774" />
-    <option name="y" value="40" />
-    <option name="width" value="547" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="647" />
+    <option name="y" value="27" />
+    <option name="width" value="719" />
     <option name="height" value="641" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -127,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,7 +151,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,29 +197,56 @@
       <workItem from="1554353374334" duration="863000" />
       <workItem from="1554354716510" duration="79000" />
       <workItem from="1554355197710" duration="4520000" />
-      <workItem from="1554623944260" duration="3028000" />
+      <workItem from="1554623944260" duration="31406000" />
+      <workItem from="1554734822008" duration="3257000" />
+      <workItem from="1554743214232" duration="1048000" />
+      <workItem from="1554760334044" duration="12089000" />
+      <workItem from="1554786360352" duration="622000" />
+      <workItem from="1554820053725" duration="2470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48005000" />
+    <option name="totallyTimeSpent" value="95869000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="647" y="27" width="719" height="641" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11332801" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36106983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.80456024" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46289062" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.767101" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.05859375" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33938295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48632812" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.93485343" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -216,31 +255,18 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TCPserver.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ArchivoTexto.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Serial.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ArchivoTexto.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -252,81 +278,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Serial.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
-          <folding>
-            <element signature="e#95#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JsonDoc.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JsonDoc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TCPserver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-          <folding>
-            <element signature="e#100#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jugador.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jugador.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lista.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lista.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListaLetras.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListaT.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Matrix.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Matriz.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nodo.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Partida.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Partida.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="222" selection-start-line="222" selection-end-line="222" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Jugador.cpp" />
+    <entry file="file://$PROJECT_DIR$/Lista.cpp" />
+    <entry file="file://$PROJECT_DIR$/ListaLetras.cpp" />
+    <entry file="file://$PROJECT_DIR$/ListaT.cpp" />
+    <entry file="file://$PROJECT_DIR$/Matrix.cpp" />
+    <entry file="file://$PROJECT_DIR$/Matriz.cpp" />
+    <entry file="file://$PROJECT_DIR$/Nodo.cpp" />
+    <entry file="file://$PROJECT_DIR$/Partida.cpp" />
     <entry file="file://$PROJECT_DIR$/NodoT.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -334,9 +293,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodoT.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/NodoT.cpp" />
     <entry file="file://$PROJECT_DIR$/Nodo.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -344,20 +301,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Matriz.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Matrix.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Matrix.h" />
     <entry file="file://$PROJECT_DIR$/ListaT.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1875">
@@ -378,13 +322,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TCPserver.cpp" />
+    <entry file="file://$PROJECT_DIR$/Serial.cpp" />
+    <entry file="file://$PROJECT_DIR$/JsonDoc.cpp" />
+    <entry file="file://$PROJECT_DIR$/ThreadPool.cpp" />
+    <entry file="file://$PROJECT_DIR$/ThreadPool.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#102#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serial.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
+          <folding>
+            <element signature="e#95#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matriz.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Partida.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jugador.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lista.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="119" column="31" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCPserver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#100#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsonDoc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+          <folding>
+            <element signature="e#96#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+        <state relative-caret-position="74">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#615#632#0" expanded="true" />
           </folding>
         </state>
       </provider>

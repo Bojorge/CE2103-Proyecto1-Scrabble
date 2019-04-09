@@ -13,34 +13,42 @@
   <component name="ChangeListManager">
     <list default="true" id="90ac31fc-f4bb-4ea1-abe7-ccb4a07eb5c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArchivoTexto.h" beforeDir="false" afterPath="$PROJECT_DIR$/ArchivoTexto.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial.h" beforeDir="false" afterPath="$PROJECT_DIR$/Serial.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPclient.h" beforeDir="false" afterPath="$PROJECT_DIR$/TCPclient.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cliente.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cliente" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cliente" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cliente.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cliente.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../servidor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servidor/ArchivoTexto.h" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/ArchivoTexto.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servidor/Serial.h" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/Serial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/Jugador.h" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/Jugador.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/Lista.h" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/Lista.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/Matrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/Partida.h" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/Partida.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../servidor/TCPserver.h" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/TCPserver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/ThreadPool.h" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/ThreadPool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/ArchivoTexto.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/ArchivoTexto.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/Serial.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/Serial.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/JsonDoc.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/Serial.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/TCPserver.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/datosServer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/datosServer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/CMakeFiles/servidor.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/servidor" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/servidor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/cmake-build-debug/servidor.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/cmake-build-debug/servidor.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servidor/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../servidor/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,62 +68,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TCPclient.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TCPclient.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+            <state relative-caret-position="450">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding>
-                <element signature="e#142#160#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Serial.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Serial.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
-              <folding>
-                <element signature="e#93#110#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArchivoTexto.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ArchivoTexto.h">
+        <entry file="file://$PROJECT_DIR$/TCPclient.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="63">
+              <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
               <folding>
-                <element signature="e#104#122#0" expanded="true" />
+                <element signature="e#142#160#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,17 +103,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TCPclient.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/TCPclient.h" />
         <option value="$PROJECT_DIR$/Serial.h" />
         <option value="$PROJECT_DIR$/ArchivoTexto.h" />
+        <option value="$PROJECT_DIR$/TCPclient.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="757" />
-    <option name="y" value="87" />
-    <option name="width" value="487" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="600" />
     <option name="height" value="641" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -153,11 +121,24 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cliente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cliente" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Descargas/crabble - interfaz y logica/Logica" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="language.cpp" />
@@ -198,6 +179,9 @@
       <workItem from="1554353463648" duration="1039000" />
       <workItem from="1554355223295" duration="3316000" />
       <workItem from="1554506468517" duration="680000" />
+      <workItem from="1554688609524" duration="12598000" />
+      <workItem from="1554760368394" duration="2736000" />
+      <workItem from="1554769666384" duration="2621000" />
     </task>
     <task id="LOCAL-00001" summary="Ahora si funciona">
       <created>1554353905379</created>
@@ -210,18 +194,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20262000" />
+    <option name="totallyTimeSpent" value="38217000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="757" y="87" width="487" height="641" extended-state="0" />
-    <editor active="true" />
+    <frame x="67" y="27" width="600" height="641" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.45578232" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.45487365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.328125" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45117188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,30 +229,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Ahora si funciona" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TCPclient.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TCPclient.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
-          <folding>
-            <element signature="e#142#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -286,15 +249,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArchivoTexto.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ArchivoTexto.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="-148">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#104#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArchivoTexto.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCPclient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+          <folding>
+            <element signature="e#142#160#0" expanded="true" />
           </folding>
         </state>
       </provider>

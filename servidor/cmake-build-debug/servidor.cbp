@@ -90,9 +90,6 @@
 		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ArchivoTexto.h">
 			<Option target="servidor"/>
 		</Unit>
-		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.cpp">
-			<Option target="servidor"/>
-		</Unit>
 		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/JsonDoc.h">
 			<Option target="servidor"/>
 		</Unit>
@@ -108,9 +105,6 @@
 		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ListaT.h">
 			<Option target="servidor"/>
 		</Unit>
-		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Matrix.h">
-			<Option target="servidor"/>
-		</Unit>
 		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Matriz.h">
 			<Option target="servidor"/>
 		</Unit>
@@ -123,16 +117,13 @@
 		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Partida.h">
 			<Option target="servidor"/>
 		</Unit>
-		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.cpp">
-			<Option target="servidor"/>
-		</Unit>
 		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Serial.h">
 			<Option target="servidor"/>
 		</Unit>
-		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.cpp">
+		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.h">
 			<Option target="servidor"/>
 		</Unit>
-		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/TCPserver.h">
+		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/ThreadPool.h">
 			<Option target="servidor"/>
 		</Unit>
 		<Unit filename="/home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/main.cpp">

@@ -17,8 +17,6 @@
 #include <sys/socket.h>
 #include <cstdlib>
 #include <netinet/in.h>
-#include <strings.h>
-#include <zconf.h>
 
 #define MAX 80
 #define PORT 8080
