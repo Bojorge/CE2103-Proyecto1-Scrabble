@@ -13,29 +13,23 @@
 
 class Jugador {
 
-public: std::string Nombre;
-public: int ip;
+public: int Nombre;
 public: Lista* fichas = new Lista();
 public: int Puntaje = 0;
 
+public: Jugador(int nombre){
+    setNombre(nombre);
+}
 
-public:int getIp() const {
-        return ip;
-    }
-
-public:void setIp(int ip) {
-        Jugador::ip = ip;
-    }
-
-public:const std::string &getNombre() const {
+public:const int &getNombre() const {
         return Nombre;
     }
 
-public:void setNombre(const std::string &Nombre) {
+public:void setNombre(const int &Nombre) {
         Jugador::Nombre = Nombre;
     }
 
-public: int &getPuntaje() {
+public: int getPuntaje() {
         return Puntaje;
     }
 
