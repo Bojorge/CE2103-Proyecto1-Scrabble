@@ -13,6 +13,8 @@
 #include "Jugador.h"
 #include "ListaLetras.h"
 
+using namespace std;
+
 /// Clase partida
 /// Maneja el las funciones generales de la logica del servidor
 
@@ -26,6 +28,7 @@ public: Partida(){
         matriz = new Matriz(15,15);
         Jugadores = new ListaT<Jugador>();
         lista_letras = new ListaLetras();
+
     }
 
 /// Funcion que ontiene la lista de jugadores y le da 7 letras aleatrias a cada jugador
@@ -218,6 +221,9 @@ public: void reintentar(Lista* p){
 }
 public: bool encadenado(Lista* n,Lista* m, int x, int y){
     Lista* p = new Lista();
+    // verificar si esta en el centro
+
+
     for (int c = 0 ; c < n->tamano();c++){
         p->anadir_final(n->obtener_dato(c));
     }for (int f = 0 ; f < m->tamano();f++){
@@ -262,6 +268,30 @@ public: bool encadenado(Lista* n,Lista* m, int x, int y){
     }
     return false;
 }
+
+public: Lista* obtener_letras(){
+    Lista* a = new Lista();
+ for (int i = 0; i < 15 ; i++){
+     for (int j = 0; j < 15; j++){
+         if (matriz->retornar_Dato(i,j) != 0){
+             a->anadir_final(i);
+             a->anadir_final(j);
+             a->anadir_final(matriz->retornar_Dato(i,j));
+         }
+     }
+ }
+        return  a;
+}
+
+public: string castear(Lista* p){
+    string conca = to_string(p->obtener_dato(0));
+    for (int i = 1; i < p->tamano();i++){
+        string signo = to_string(p->obtener_dato(i));
+        conca = conca + "," + signo;
+    }
+    return conca;
+}
+
 };
 
 
