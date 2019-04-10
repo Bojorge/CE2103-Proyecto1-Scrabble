@@ -296,11 +296,20 @@ public: string castear(Lista* p){
 public: Lista* castear_Lista_to_String(std::string p){
     Lista* L = new Lista();
         int j = 1;
+        string dato = "";
         for(int i = 0; i < p.length();i++){
-            string gad = p.substr(i,j);
-            if(gad != ",") {
-                L->anadir_final(atoi(gad.c_str()));
+            string letra1 = p.substr(i,j);
+            if (letra1 == ","){
+                L->anadir_final(atoi(dato.c_str()));
+                dato = "";
+            }else{
+                if (dato == "") {
+                    dato = letra1;
+                }else{
+                    dato = dato + letra1;
+                }
             }
+
         }
         return L;
 }
