@@ -31,7 +31,7 @@
 #define SA struct sockaddr
 
 
-
+///clase que provee el servidor que genera la aplicacion
 class TCPserver {
 
 private:
@@ -44,14 +44,14 @@ private:
     Partida *p;
 
 public:
-
+    ///metodo donde recibe como parametro una lista y castea esa lista a un char
     void castearLista_a_Char(Lista listaCast){
         for(int i=0;i<listaCast.tamano();i++){
             char data = (char)listaCast.obtener_dato(i);
             listaCast.cambiar_Dato_a_char(i,data);
         }
      }
-
+    ///metodo donde se lee el dato que viene proveniente del socket
     void leerPaquete(int sockfd){
         bzero(buff, MAX);
 
@@ -69,7 +69,7 @@ public:
         }
 
     }
-
+    ///metodo que envia el dato proveniente del socket
     void enviarPaquete(int sockfd){
         bzero(buff, MAX);
         printf("Enviar al cliente >>> : ", buff);
@@ -81,7 +81,7 @@ public:
 
 
     }
-
+    ///metodo boooleano que se usa para terminar la conexion entre el servidor y el cliente por medio de los sockets
     bool terminarConexion(){
         if (strncmp("exit", buff, 4) == 0) {
             printf("Server Finalizado...\n");
@@ -89,9 +89,8 @@ public:
         }
         return false;
     }
-
-
-
+    
+    ///metodo que crea un nuevo jugador, osea que establece un nuevo cliente que pide datos del servidor
     void crearJugador(int sockfd){
         //if (strncmp("jugador", buff, 4) == 0) {
             printf("se solicita crear un jugador...\n");
@@ -100,7 +99,7 @@ public:
        // }
     }
 
-
+    ///metodo que mantiene viva la conexion del socket hasta que se llame a la funcion terminaqrconexion();
     void puerto(int sockfd){
         // infinite loop for chat
         for (;;) {
@@ -114,7 +113,7 @@ public:
         }
 
     };
-
+    ///metodo donde el servidor acepta la conexion de un cliente y se prepara para iniciar la conexion
     void aceptarConexion(){
 
 
@@ -129,7 +128,7 @@ public:
         puerto(connfd);
     };
 
-
+    ///metodo sin parametros donde se crea el socket desde cero e inicializa la aplicacion y la comunicacion entre servidor y cliente
     int iniciar() {
 
         // socket create and verification

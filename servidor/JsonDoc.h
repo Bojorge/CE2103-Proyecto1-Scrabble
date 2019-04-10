@@ -12,9 +12,10 @@
 
 using namespace rapidjson;
 
-
+///clase donde se genera el json para la comunicacion serial
 class JsonDoc {
 
+        ///metodo que genera un json sencillo para ser pasada la informacion entre servidor y cliente
 public: void sample_basic() {
         // 1. Parse a JSON string into DOM.
         const char* json = "{\"scrabble\":\"fichas\",\"posicion\":20}";
@@ -34,7 +35,7 @@ public: void sample_basic() {
         // Output {"project":"rapidjson","stars":11}
         std::cout << buffer.GetString() << std::endl;
     }
-
+///metodo que genera un ejemplo de un json 
 public: void sample_other() {
         // document is the root of a json message
         rapidjson::Document document;
@@ -70,7 +71,7 @@ public: void sample_other() {
 
         std::cout << strbuf.GetString() << std::endl;
     }
-
+///metodo que genera un api por medio de json 
 public: void sample_sendapi() {
         Document d;
         Document::AllocatorType& alloc = d.GetAllocator();
