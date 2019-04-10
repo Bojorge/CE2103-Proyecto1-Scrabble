@@ -68,7 +68,7 @@ public:
         }
     };
 
-    ///metodo donde se crea el socket desde cero y se inicia la comunicacion 
+    ///metodo donde se crea el socket desde cero y se inicia la comunicacion del server al cliente
     int iniciar(){
 
         int sockfd, connfd;
