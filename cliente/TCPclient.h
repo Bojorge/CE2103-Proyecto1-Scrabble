@@ -20,7 +20,7 @@
 #define MAX 80
 #define PORT 8080
 #define SA struct sockaddr
-
+///clase donde se maneja el cliente que se conectara con el servidor 
 class TCPclient {
 
 private:
@@ -28,7 +28,7 @@ private:
     char buff[MAX];
 
 public:
-
+    ///metodo que lee el dato proveniente del servidor por medio de la comuncacion socket
     void leerPaquete(int sockfd){
 
         bzero(buff, sizeof(buff));
@@ -36,7 +36,7 @@ public:
 
         printf("Server envia >>> : %s", buff);
     }
-
+    ///metodo que envia el dato proveniente del cliente y lo envia al servidor
     void enviarPaquete(int sockfd){
 
         bzero(buff, sizeof(buff));
@@ -45,7 +45,7 @@ public:
         while ((buff[n++] = getchar()) != '\n');
         write(sockfd, buff, sizeof(buff));
     }
-
+    ///metodo booleano donde se termina la concexion del socket
     bool terminarConexion(){
         if ((strncmp(buff, "exit", 4)) == 0) {
             printf("Cliente finalizado...\n");
@@ -54,11 +54,7 @@ public:
         return false;
     }
 
-
-
-
-
-
+    ///metodo donde se crea un loop que mantiene viva la conexion entre el server y el cliente
     void puerto(int sockfd) {
 
         for (;;) {
@@ -72,7 +68,7 @@ public:
         }
     };
 
-
+    ///metodo donde se crea el socket desde cero y se inicia la comunicacion 
     int iniciar(){
 
         int sockfd, connfd;
