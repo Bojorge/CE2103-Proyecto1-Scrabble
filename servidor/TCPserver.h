@@ -17,6 +17,16 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 
+#include <arpa/inet.h>
+
+#include "ArchivoTexto.h"
+#include "Partida.h"
+
+#include <pthread.h>
+#include "Jugador.h"
+
+
+
 #define MAX 80
 #define PORT 8080
 #define SA struct sockaddr
@@ -29,36 +39,159 @@ private:
     int sockfd, connfd;
     unsigned int len;
     struct sockaddr_in servaddr, cli;
+    char buff[MAX];
+    ArchivoTexto recibido;
+
+    Partida *partida;
 
 
 public:
 
-    void func(int sockfd){
-        char buff[MAX];
-        int n;
+    void castearLista_a_Char(Lista* listaCast){
+        for(int i=0;i<listaCast->tamano();i++){
+            char data = (char)listaCast->obtener_dato(i);
+            listaCast->cambiar_Dato_a_char(i,data);
+        }
+     }
+
+    void leerPaquete(int sockfd){
+        bzero(buff, MAX);
+
+        // read the message from client and copy it in buffer
+        read(sockfd, buff, sizeof(buff));
+
+
+        if (strncmp("iniciar", buff, 4) == 0) {
+            //crearJugador(sockfd);
+
+            partida=new Partida();
+            Jugador* jugador=new Jugador(1);
+
+
+
+            partida->Jugadores->anadir_final(jugador);
+            partida->repartir_letras();
+
+
+
+            Lista* l = partida->Jugadores->obtener_dato(0)->fichas;
+            l->print_lista();
+            l->anadir_Inicio(0);
+
+            string lista=partida->castear(l);
+            char elemento[200];
+            strcpy(elemento,lista.c_str());
+
+            write(sockfd, elemento, sizeof(buff));
+
+
+        }
+        else{
+            std::string retornar = buff;
+
+            Lista* ista = partida->castear_Lista_to_String(retornar);
+            ista->print_lista();
+            // print buffer which contains the client contents
+            //printf("cliente envia >>> : %s\t");
+
+                if(partida->encontraryasignar(ista)){
+                    Lista* lista = partida->obtener_letras();
+                    lista->anadir_Inicio(1);
+                string l=partida->castear(lista);
+                char elemento[200];
+                strcpy(elemento,l.c_str());
+                write(sockfd, elemento, sizeof(buff));
+
+            }else{
+                partida->reintentar(ista);
+                //bzero(buff, MAX);
+                notificarError(sockfd);
+                //write(sockfd,"error",sizeof(buff));
+
+            }
+
+        }
+
+    }
+
+    void notificarError(int sockfd){
+        bzero(buff, MAX);
+        write(sockfd, "error", sizeof(buff));
+    }
+
+    void enviarPaquete(int sockfd){
+        bzero(buff, MAX);
+        printf("Enviar al cliente >>> : ", buff);
+        bzero(buff, MAX);
+        int n=0;
+        // copy server message in the buffer
+        while ((buff[n++] = getchar()) != '\n');
+        write(sockfd, buff, sizeof(buff));
+    }
+
+    void enviarSalir(int sockfd){
+        bzero(buff, MAX);
+
+        write(sockfd, "exit", sizeof(buff));
+    }
+
+    bool terminarConexion(){
+        if (strncmp("exit", buff, 4) == 0) {
+            printf("Server Finalizado...\n");
+            return true;
+        }
+        return false;
+    }
+
+
+
+    void crearJugador(int sockfd){
+        //if (strncmp("jugador", buff, 4) == 0) {
+            printf("se solicita crear un jugador...\n");
+            write(sockfd, "el servidor creara un nuevo jugador \n", sizeof(buff));
+
+       // }
+    }
+
+
+    void puerto(int sockfd){
         // infinite loop for chat
         for (;;) {
-            bzero(buff, MAX);
 
-            // read the message from client and copy it in buffer
-            read(sockfd, buff, sizeof(buff));
-            // print buffer which contains the client contents
-            printf("cliente envia >>> : %s\t Enviar al cliente >>> : ", buff);
-            bzero(buff, MAX);
-            n = 0;
-            // copy server message in the buffer
-            while ((buff[n++] = getchar()) != '\n')
-                ;
+            leerPaquete(sockfd);
+            //enviarPaquete(sockfd);
 
-            // and send that buffer to client
-            write(sockfd, buff, sizeof(buff));
-
-            // if msg contains "Exit" then server exit and chat ended.
-            if (strncmp("exit", buff, 4) == 0) {
-                printf("Server Finalizado...\n");
+            if(terminarConexion()){
                 break;
             }
         }
+        // After chatting close the socket
+        close(sockfd);
+    };
+
+
+    void aceptarConexion(int sockfd){
+
+        //while(true) {
+            connfd = accept(sockfd, (SA *) &cli, &len);
+            if (connfd < 0) {
+                printf("server acccept failed...\n");
+                exit(0);
+            } else {
+                printf("server acccept the client...\n");
+
+
+                    leerPaquete(connfd);
+
+
+
+            //}
+
+            // Function for chatting between client and server
+            puerto(connfd);
+        }
+
+
     };
 
 
@@ -78,6 +211,12 @@ public:
         servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
         servaddr.sin_port = htons(PORT);
 
+        //permite seguir usando la direccion a la que esta unido el servidor (aunque no se haya cerrando el socket con la funcion close)
+        int activado;
+        setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &activado, sizeof(activado));
+
+
+
         // Binding newly created socket to given IP and verification
         if ((bind(sockfd, (SA *) &servaddr, sizeof(servaddr))) != 0) {
             printf("Fallo el enlace al socket ...\n");
@@ -93,23 +232,19 @@ public:
             printf("Server listening..\n");
         len = sizeof(cli);
 
+
         // Accept the data packet from client and verification
-        connfd = accept(sockfd, (SA *) &cli, &len);
-        if (connfd < 0) {
-            printf("server acccept failed...\n");
-            exit(0);
-        } else
-            printf("server acccept the client...\n");
+        aceptarConexion(sockfd);
 
-        // Function for chatting between client and server
-        func(connfd);
+        //puerto(connfd);
 
-        // After chatting close the socket
-        close(sockfd);
     };
 
 
+
+
 };
+
 
 
 #endif //SERVIDOR_TCPSERVER_H

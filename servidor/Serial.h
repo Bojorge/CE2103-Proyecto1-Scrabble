@@ -7,34 +7,23 @@
 
 
 #include <cstdio>
+#include <fstream>
+#include <iostream>
 
 class Serial {
 
-    struct Persona{
-        char nombre[256];
-        int edad;
-        float salario;
-        char email[256];
+
+    struct Objeto{
+        int Xposicion;
+        int Yposicion;
+        char letra[256];
     };
 
 
 
 public:
-    int crearArchivoBinaro(void){
 
-        Persona empleados[] = {
-                {"Maria ", 21, 1000000, "email de Maria"},
-                {"Manuel", 666, 10000000000, "email de Manuel"}
-        };
-
-        const int cantidadEmpleados = sizeof(empleados)/ sizeof(Persona);
-        Persona lecturaInformacion[cantidadEmpleados];
-        char nombreArchivo[] = "Serializado.txt";
-        int x;
-
-
-
-        //escribe un archivo binario
+    int escribirArchivoBinario(char nombreArchivo[],int cantidadLetras, Objeto letras[]){
         FILE *archivo = fopen(nombreArchivo, "wb");
 
         if (archivo == NULL){
@@ -42,8 +31,8 @@ public:
             return -1;
         }
 
-        for (x = 0; x < cantidadEmpleados; ++x){
-            fwrite(&empleados[x], sizeof(Persona), 1, archivo);
+        for (int x = 0; x < cantidadLetras; ++x){
+            fwrite(&letras[x], sizeof(Objeto), 1, archivo);
         }
         fclose(archivo);
 
@@ -51,33 +40,47 @@ public:
 
     };
 
-    int leerArchivoBinario(){
 
-        Persona empleados[] = {
-                {"Maria ", 21, 1000000, "email de Maria"},
-                {"Manuel", 666, 10000000000, "email de Manuel"}
+    void crearArchivoBinaro(){
+
+        Objeto letras[] = {
+                {10, 20,'l'},
+                {30, 40,'k'},
+                {50, 60,'i'},
+                {70, 80,'j'},
         };
 
-        const int cantidadEmpleados = sizeof(empleados)/ sizeof(Persona);
-        Persona lecturaInformacion[cantidadEmpleados];
+        const int cantidadLetras = sizeof(letras)/ sizeof(Objeto);
+        Objeto lecturaInformacion[cantidadLetras];
         char nombreArchivo[] = "Serializado.txt";
-        int x;
+
+        escribirArchivoBinario(nombreArchivo, cantidadLetras, letras);
+        leerArchivoBinario(nombreArchivo, cantidadLetras);
 
 
+    };
+
+    int leerArchivoBinario(char nombreArchivo[], int cantidadLetras){
+
+
+        Objeto lecturaInformacion[cantidadLetras];
         FILE *archivo = fopen(nombreArchivo, "rb");
+
         if (archivo == NULL){
             fprintf(stderr, "Error: No se puede abrir el archivo\n");
             return  -2;
         }
-        for (x = 0; x < cantidadEmpleados; ++x){
-            fread(&lecturaInformacion[x], sizeof(Persona), 1, archivo);
+
+        for (int x = 0; x < cantidadLetras; ++x){
+            fread(&lecturaInformacion[x], sizeof(Objeto), 1, archivo);
         }
+
         fclose(archivo);
-        for (x = 0; x < cantidadEmpleados; ++x) {
-            printf("Nombre: %s\n", lecturaInformacion[x].nombre);
-            printf("Edad: %d\n", lecturaInformacion[x].edad);
-            printf("Salario: %f\n", lecturaInformacion[x].salario);
-            printf("correo: %s\n", lecturaInformacion[x].email);
+
+        for (int x = 0; x < cantidadLetras; ++x) {
+            printf("La posicion en X es: %d\n", lecturaInformacion[x].Xposicion);
+            printf("La posicion en Y es: %d\n", lecturaInformacion[x].Yposicion);
+            printf("La letra es: %s\n", lecturaInformacion[x].letra);
             printf("\n");
         }
         printf("\n");

@@ -3,12 +3,17 @@
 
 CMakeFiles/servidor.dir/ArchivoTexto.cpp.o: ../ArchivoTexto.cpp
 
-CMakeFiles/servidor.dir/Serial.cpp.o: ../Serial.cpp
-CMakeFiles/servidor.dir/Serial.cpp.o: ../Serial.h
-
-CMakeFiles/servidor.dir/TCPserver.cpp.o: ../TCPserver.cpp
-
 CMakeFiles/servidor.dir/main.cpp.o: ../ArchivoTexto.h
+CMakeFiles/servidor.dir/main.cpp.o: ../JsonDoc.h
+CMakeFiles/servidor.dir/main.cpp.o: ../Jugador.h
+CMakeFiles/servidor.dir/main.cpp.o: ../Lista.h
+CMakeFiles/servidor.dir/main.cpp.o: ../ListaLetras.h
+CMakeFiles/servidor.dir/main.cpp.o: ../ListaT.h
+CMakeFiles/servidor.dir/main.cpp.o: ../ListaTJugador.h
+CMakeFiles/servidor.dir/main.cpp.o: ../Matriz.h
+CMakeFiles/servidor.dir/main.cpp.o: ../Nodo.h
+CMakeFiles/servidor.dir/main.cpp.o: ../NodoT.h
+CMakeFiles/servidor.dir/main.cpp.o: ../Partida.h
 CMakeFiles/servidor.dir/main.cpp.o: ../Serial.h
 CMakeFiles/servidor.dir/main.cpp.o: ../TCPserver.h
 CMakeFiles/servidor.dir/main.cpp.o: ../main.cpp

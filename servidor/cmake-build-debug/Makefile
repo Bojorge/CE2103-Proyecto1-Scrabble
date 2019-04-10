@@ -48,10 +48,10 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manuel/CLionProjects/servidor
+CMAKE_SOURCE_DIR = /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manuel/CLionProjects/servidor/cmake-build-debug
+CMAKE_BINARY_DIR = /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manuel/CLionProjects/servidor/cmake-build-debug/CMakeFiles /home/manuel/CLionProjects/servidor/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manuel/CLionProjects/servidor/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,60 +150,6 @@ ArchivoTexto.cpp.s:
 	$(MAKE) -f CMakeFiles/servidor.dir/build.make CMakeFiles/servidor.dir/ArchivoTexto.cpp.s
 .PHONY : ArchivoTexto.cpp.s
 
-Serial.o: Serial.cpp.o
-
-.PHONY : Serial.o
-
-# target to build an object file
-Serial.cpp.o:
-	$(MAKE) -f CMakeFiles/servidor.dir/build.make CMakeFiles/servidor.dir/Serial.cpp.o
-.PHONY : Serial.cpp.o
-
-Serial.i: Serial.cpp.i
-
-.PHONY : Serial.i
-
-# target to preprocess a source file
-Serial.cpp.i:
-	$(MAKE) -f CMakeFiles/servidor.dir/build.make CMakeFiles/servidor.dir/Serial.cpp.i
-.PHONY : Serial.cpp.i
-
-Serial.s: Serial.cpp.s
-
-.PHONY : Serial.s
-
-# target to generate assembly for a file
-Serial.cpp.s:
-	$(MAKE) -f CMakeFiles/servidor.dir/build.make CMakeFiles/servidor.dir/Serial.cpp.s
-.PHONY : Serial.cpp.s
-
-TCPserver.o: TCPserver.cpp.o
-
-.PHONY : TCPserver.o
-
-# target to build an object file
-TCPserver.cpp.o:
-	$(MAKE) -f CMakeFiles/servidor.dir/build.make CMakeFiles/servidor.dir/TCPserver.cpp.o
-.PHONY : TCPserver.cpp.o
-
-TCPserver.i: TCPserver.cpp.i
-
-.PHONY : TCPserver.i
-
-# target to preprocess a source file
-TCPserver.cpp.i:
-	$(MAKE) -f CMakeFiles/servidor.dir/build.make CMakeFiles/servidor.dir/TCPserver.cpp.i
-.PHONY : TCPserver.cpp.i
-
-TCPserver.s: TCPserver.cpp.s
-
-.PHONY : TCPserver.s
-
-# target to generate assembly for a file
-TCPserver.cpp.s:
-	$(MAKE) -f CMakeFiles/servidor.dir/build.make CMakeFiles/servidor.dir/TCPserver.cpp.s
-.PHONY : TCPserver.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -243,12 +189,6 @@ help:
 	@echo "... ArchivoTexto.o"
 	@echo "... ArchivoTexto.i"
 	@echo "... ArchivoTexto.s"
-	@echo "... Serial.o"
-	@echo "... Serial.i"
-	@echo "... Serial.s"
-	@echo "... TCPserver.o"
-	@echo "... TCPserver.i"
-	@echo "... TCPserver.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
