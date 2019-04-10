@@ -5,6 +5,7 @@ CMakeFiles/gtk-test.dir/main.o: SRC/Jugador.h
 CMakeFiles/gtk-test.dir/main.o: SRC/Lista.h
 CMakeFiles/gtk-test.dir/main.o: SRC/ListaLetras.h
 CMakeFiles/gtk-test.dir/main.o: SRC/ListaT.h
+CMakeFiles/gtk-test.dir/main.o: SRC/ListaTJugador.h
 CMakeFiles/gtk-test.dir/main.o: SRC/Matriz.h
 CMakeFiles/gtk-test.dir/main.o: SRC/Nodo.h
 CMakeFiles/gtk-test.dir/main.o: SRC/NodoT.h

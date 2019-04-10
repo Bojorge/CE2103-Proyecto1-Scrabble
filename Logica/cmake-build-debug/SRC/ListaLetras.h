@@ -47,7 +47,8 @@ public: ListaLetras(){
 
     listaLetras->ordenar(listaLetras);
 
-    tS.anadir_final("");tS.anadir_final("a");tS.anadir_final("b");tS.anadir_final("c");tS.anadir_final("d");
+    tS.anadir_final( "");tS.anadir_final("a");tS.anadir_final("b");tS.anadir_final("c");tS.anadir_final("d");
+
     tS.anadir_final("e");tS.anadir_final("f");tS.anadir_final("g");tS.anadir_final("h");tS.anadir_final("ch");
     tS.anadir_final("i");tS.anadir_final("j");tS.anadir_final("l");tS.anadir_final("ll");tS.anadir_final("m");
     tS.anadir_final("n");tS.anadir_final("ñ");tS.anadir_final("o");tS.anadir_final("p");tS.anadir_final("q");

@@ -12,6 +12,7 @@
 #include "ListaT.h"
 #include "Jugador.h"
 #include "ListaLetras.h"
+#include "ListaTJugador.h"
 
 using namespace std;
 
@@ -22,11 +23,11 @@ class Partida {
 
 public: ListaLetras* lista_letras;
 public: Matriz* matriz;
-public: ListaT<Jugador>* Jugadores;
+public: ListaTJugador* Jugadores;
 
 public: Partida(){
         matriz = new Matriz(15,15);
-        Jugadores = new ListaT<Jugador>();
+        Jugadores = new ListaTJugador();
         lista_letras = new ListaLetras();
 
     }
@@ -35,7 +36,7 @@ public: Partida(){
 
 public: void repartir_letras(){
     for (int i = 0; i < Jugadores->tamano(); i++){
-        int cant = (7 - Jugadores->obtener_dato(i).fichas->tamano());
+        int cant = (7 - Jugadores->obtener_dato(i)->fichas->tamano());
         for (int j = 0; j < cant; j++ ){
             int limite = lista_letras->listaLetras->tamano() - 1;
             if (limite == 0 ){
@@ -45,7 +46,7 @@ public: void repartir_letras(){
             int num = rand() % limite;
             int letra = lista_letras->listaLetras->obtener_dato(num);
             lista_letras->listaLetras->borrar_Dato(num);
-            Jugadores->obtener_dato(i).fichas->anadir_final(letra);
+            Jugadores->obtener_dato(i)->fichas->anadir_final(letra);
         }
     }
 
@@ -291,6 +292,7 @@ public: string castear(Lista* p){
     }
     return conca;
 }
+
 
 };
 

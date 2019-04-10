@@ -4,6 +4,7 @@
 #include "cmake-build-debug/SRC/Lista.h"
 #include "cmake-build-debug/SRC/Matriz.h"
 #include "cmake-build-debug/SRC/Partida.h"
+#include "cmake-build-debug/SRC/Jugador.h"
 
 int main() {
     std::cout << " Prueba Listas " << std::endl;
@@ -29,6 +30,20 @@ int main() {
     Lista* perro = new Lista();
     Lista* ayo = new Lista();
     Lista* g = new Lista();
+    Lista* prueba2 = new Lista();
+
+
+    Jugador* cliente1 = new Jugador(1);
+    p->Jugadores->anadir_final(cliente1);
+    p->repartir_letras();
+    std::cout << " --------------------------------------------------------------------------------------------------" << std::endl;
+
+    p->Jugadores->obtener_dato(0)->fichas->print_lista();
+
+
+
+    prueba2->anadir_final(6);prueba2->anadir_final(10);prueba2->anadir_final(1);
+    prueba2->anadir_final(6);prueba2->anadir_final(11);prueba2->anadir_final(2);
 
     perro->anadir_final(5);perro->anadir_final(9);perro->anadir_final(18);
     perro->anadir_final(5);perro->anadir_final(10);perro->anadir_final(5);
@@ -112,5 +127,12 @@ int main() {
                               enca->anadir_final(6);enca->anadir_final(9);enca->anadir_final(2);
 
     std::cout<<p->encadenado(enca,l,8,9)<<std::endl;
+
+    std::cout<<""<<std::endl;std::cout << " __________________________________________________" << std::endl;
+    Lista* obtener_letras = p->obtener_letras();
+    obtener_letras->print_lista();
+
+    std::cout<< p->castear(obtener_letras)<<std::endl;
+
     return 0;
 };

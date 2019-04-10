@@ -206,6 +206,9 @@
 		<Unit filename="/home/adrian/CLionProjects/Logica/cmake-build-debug/SRC/ListaT.h">
 			<Option target="gtk-test"/>
 		</Unit>
+		<Unit filename="/home/adrian/CLionProjects/Logica/cmake-build-debug/SRC/ListaTJugador.h">
+			<Option target="gtk-test"/>
+		</Unit>
 		<Unit filename="/home/adrian/CLionProjects/Logica/cmake-build-debug/SRC/Matriz.h">
 			<Option target="gtk-test"/>
 		</Unit>
