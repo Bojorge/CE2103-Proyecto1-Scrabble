@@ -293,6 +293,18 @@ public: string castear(Lista* p){
     return conca;
 }
 
+public: Lista* castear_Lista_to_String(std::string p){
+    Lista* L = new Lista();
+        int j = 1;
+        for(int i = 0; i < p.length();i++){
+            string gad = p.substr(i,j);
+            if(gad != ",") {
+                L->anadir_final(atoi(gad.c_str()));
+            }
+        }
+        return L;
+}
+
 
 };
 
