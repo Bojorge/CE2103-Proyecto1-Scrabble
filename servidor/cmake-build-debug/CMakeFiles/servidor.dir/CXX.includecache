@@ -73,7 +73,7 @@ clocale
 -
 
 /home/manuel/CLionProjects/CE2103-Proyecto1-Scrabble/servidor/Partida.h
-random
+cstdlib
 -
 string
 -

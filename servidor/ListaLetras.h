@@ -61,7 +61,7 @@ public:
             listaLetras->anadir_final(8);
             listaLetras->anadir_final(14);
             listaLetras->anadir_final(18);
-            listaLetras->anadir_final(29);
+            listaLetras->anadir_final(1);
         }
         listaLetras->anadir_final(6);
         listaLetras->anadir_final(9);

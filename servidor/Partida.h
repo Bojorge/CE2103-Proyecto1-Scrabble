@@ -6,7 +6,7 @@
 #define SERVIDOR_PARTIDA_H
 
 
-#include <random>
+#include <cstdlib>
 #include <string>
 #include "Lista.h"
 #include "Matriz.h"
@@ -43,7 +43,7 @@ public: void repartir_letras(){
                     std::cout << " No hay Fichas disponibles" << std::endl;
                     return;
                 }
-                int num = rand() % 70 + 1 ;
+                int num = (rand()%60) + 1 ;
                 int letra = lista_letras->listaLetras->obtener_dato(num);
                 lista_letras->listaLetras->borrar_Dato(num);
                 Jugadores->obtener_dato(i)->fichas->anadir_final(letra);

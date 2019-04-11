@@ -86,6 +86,16 @@ public:
 
 
         }
+        /*else if (strncmp("pedir", buff, 4) == 0) {
+            partida->repartir_letras();
+            Lista* naa = partida->Jugadores->obtener_dato(0)->fichas;
+            naa->anadir_Inicio(0);
+            string la=partida->castear(naa);
+            char aaaa[200];
+            strcpy(aaaa,la.c_str());
+            write(sockfd, aaaa, sizeof(buff));
+        }
+         */
         else{
             std::string retornar = buff;
 
@@ -95,8 +105,11 @@ public:
             //printf("cliente envia >>> : %s\t");
 
                 if(partida->encontraryasignar(ista)){
-                    Lista* lista = partida->obtener_letras();
-                    lista->anadir_Inicio(1);
+                    //Lista* lista = partida->obtener_letras();
+                    //lista->anadir_Inicio(1);
+                    partida->repartir_letras();
+                    Lista* lista = partida->Jugadores->obtener_dato(0)->fichas;
+                   // lista->anadir_Inicio(0);
                 string l=partida->castear(lista);
                 char elemento[200];
                 strcpy(elemento,l.c_str());
